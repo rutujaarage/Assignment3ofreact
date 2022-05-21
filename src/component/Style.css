@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    background-image: linear-gradient(skyblue, rgb(239, 132, 212) , rgb(3, 128, 84));
+    height: 100vh;
+    text-align: center;
+  }
+  .slideme{
+       animation: slide_me .7s ease-in;
+  }
+  @keyframes slide_me{
+    0%{
+       
+      transform: skewX(53deg) translateX(-500px);
+
+    }
+    100%{
+       transform: skew(0deg);
+    }
+  }
+  label{
+    line-height: 60px;
+    font-size: large;
+    font-weight: bold;
+  }
+  input{
+    border-radius: 5px;
+    outline: none;
+    outline-offset: none;
+    border: none;
+    font-size: x-large;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(199, 255, 255, 0.999);
+  
+  }
+  label[for = "ipt2"]{
+    position: relative;
+    right: 20px;
+  }
+  #ipt2{
+    position: relative;
+    right: 20px;
+  }
+  button{
+    border: 20px solid transparent;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 150px;
+    position: relative;
+    top: 25px;
+    cursor: pointer;
+    background-color: rgba(224, 116, 239, 0.999);
+    box-shadow: rgba(152, 197, 234, 0.35) 0px 5px 15px;;
+  
+  }
+  button:hover{
+    background-color: rgba(0, 204, 204, 0.999);;
+    
+  
+  }
+  .Employees_data{
+  
+    display: flex;
+    width:500px;
+    flex-wrap: wrap;
+   
+  
+  }
+  .data{
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(240, 165, 165);
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+    margin: 20px;
+  }
+  .connect{
+    text-decoration: none;
+    color: black;
+  }
+  .complete{
+    background-image: linear-gradient(skyblue, rgb(239, 132, 212) , rgb(3, 128, 84));
+    height: 100vh;
+    text-align: center;
+  
+   
+    width: 100%;
+    height: 100vh;
+  
+  }
